@@ -1,3 +1,4 @@
+/* toggle button */
 var checkbox = document.querySelector("input[name=checkbox]");
 var link = document.getElementById("style");
 
