@@ -66,3 +66,39 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+/* portfolio css */
+
+div.list-container {
+  position: relative;
+  width: 40%;
+  height: 400px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border: 1px solid black;
+}
+
+.projects {
+  list-style: none;
+  padding: 20px;
+}
+
+.project-cards {
+  padding-bottom: 20px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+

@@ -67,6 +67,12 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+head {
+  color: white;
+}
+
 body {
   background-color: black;
+  color: white;
 }
+
