@@ -198,13 +198,14 @@ input:checked + .slider:before {
 
 /* portfolio css */
 
-div.list-container {
+.list-container {
   position: relative;
-  width: 40%;
+  width: 400px;
   height: 400px;
   overflow-x: hidden;
   overflow-y: auto;
   border: 1px solid black;
+  text-align: center;
 }
 
 .projects {
