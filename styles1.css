@@ -231,3 +231,20 @@ div.list-container {
   padding: 2px 16px;
 }
 
+/* Qualifications HTML */
+.qualifications-header {
+  text-align: center;
+}
+
+.qualifications-container {
+  text-align: center;
+}
+
+.resume-container {
+  text-align: center;
+}
+
+.skills {
+  text-align: center;
+  border-radius: 5px;
+}
