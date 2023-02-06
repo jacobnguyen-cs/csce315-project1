@@ -1,4 +1,10 @@
 /* Landing Page*/
+/* picture */
+.pic {
+  padding-bottom:32px; 
+  padding-top:32px;
+}
+
 * {
   font-family: 'Helvetica', sans-serif;
   box-sizing: border-box;
@@ -58,6 +64,7 @@ h3 {
 
 .content-container {
   text-align: center;
+  background:#E8E8E8; padding-top:1rem; padding-bottom: 2rem;
 }
 
 .content-container > p {
@@ -255,6 +262,8 @@ input:checked + .slider:before {
 .container {
   padding: 2px 16px;
 }
+
+
 
 /* Qualifications HTML */
 .qualifications-header {

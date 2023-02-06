@@ -4,19 +4,11 @@
   <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
   <title>Jacob's CSCE 315 Page</title>
-  <link rel="stylesheet" href="styles1.css" id="style">
+  <link rel="stylesheet" href="styles1.css" id="page_style">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-  <!-- Toggle Switch 
-  <div class="switch-container" href="#">
-    <label class="switch">
-      <input type="checkbox" name="checkbox">
-      <span class="slider round"></span>
-    </label>
-  </div>
-  -->
   <header class="header">
 		<h1 class="logo"><a class="navbar-items" href="#">Jacob Nguyen</a></h1>
       <ul class="main-nav">
@@ -27,9 +19,22 @@
       </ul>
 	</header> 
 
+  <!-- Toggle Switch  -->
+  <!-- <section>
+    <div class="switch-container">
+      <label class="switch">
+        <input type="checkbox" name="checkbox">
+        <span class="slider round"></span>
+      </label>
+    </div>
+  </section> -->
+
+  <section>
+    <button type="button" id="btn" onClick="toggle()">Style Change</button>
+  </section>
 
   <header>
-    <div style="padding-bottom:32px; padding-top:32px;">
+    <div class="pic">
       <img src="me.jpg" width="250" style="border:8px solid white" class="circle responsive">
     </div>
     <h1>Jacob Nguyen</h1>
@@ -40,7 +45,7 @@
     </div>
   </header>
 
-  <section class="content-container" style="background:#E8E8E8; padding-top:1rem; padding-bottom: 2rem;">
+  <section class="content-container">
     <p>
       I am a student at Texas A&M University studying computer engineering. A couple 
       of hobbies of mine are playing games and bouldering. The game that I have played 
